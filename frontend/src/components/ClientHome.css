@@ -1,0 +1,18 @@
+.client-home {
+  background-color: #f4fef4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.client-content {
+  flex: 1;
+  text-align: center;
+  padding: 4rem 1rem;
+  color: #444;
+}
+
+.client-content h2 {
+  color: #228B22;
+  font-size: 2rem;
+}

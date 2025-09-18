@@ -1,0 +1,16 @@
+/* Container for the market cards */
+.market-container {
+  display: flex;              /* Use flexbox in row */
+  flex-wrap: nowrap;          /* No wrapping, all cards in one row */
+  justify-content: flex-start;/* Align cards from left */
+  gap: 20px;                  /* Space between cards */
+  width: 90vw;                /* Almost full viewport width */
+  margin: 20px auto;          /* Center container horizontally */
+  max-width: 1200px;          /* Optional max width */
+  overflow-x: auto;           /* Enable horizontal scroll */
+  overflow-y: hidden;         /* Disable vertical scroll */
+  scroll-behavior: smooth;    /* Smooth scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scroll on iOS */
+}
+
+

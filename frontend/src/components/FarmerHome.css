@@ -1,0 +1,17 @@
+.farmer-home {
+  background-color: #f8fefc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.farmer-content {
+  flex: 1;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.farmer-content h2 {
+  color: #8B4513; /* Soil color */
+  font-size: 2rem;
+}

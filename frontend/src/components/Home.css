@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* prevent all scrolling */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.home-container {
+  flex: 1;
+  background: linear-gradient(135deg, #d0f0fd 10%, #e8f5e9 90%);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-content {
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.home-left {
+  flex: 1;
+}
+
+.home-left h1 {
+  font-size: 2.8rem;
+  color: #5C4033;
+  margin-bottom: 1.5rem;
+}
+
+.home-left p {
+  font-size: 1.1rem;
+  color: #2D2D2D;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.explore-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #388E3C;
+}
+
+.home-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

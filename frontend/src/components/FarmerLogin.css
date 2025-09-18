@@ -1,0 +1,109 @@
+/* FarmerLogin.css */
+
+.farmer-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: #e6f0d9; /* light greenish background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+.farmer-login-container {
+  background: white;
+  border-radius: 8px;
+  padding: 30px 40px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 350px;
+  max-width: 100%;
+}
+
+.farmer-login-container h2 {
+  margin-bottom: 25px;
+  color: #2f4f2f;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.farmer-login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.farmer-login-form input[type="text"],
+.farmer-login-form input[type="password"] {
+  padding: 10px 12px;
+  margin-bottom: 18px;
+  border: 1.8px solid #a5c97f;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.farmer-login-form input[type="text"]:focus,
+.farmer-login-form input[type="password"]:focus {
+  border-color: #6c994f;
+  outline: none;
+  box-shadow: 0 0 5px #9ecf4b66;
+}
+
+.password-field {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.password-field input {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.toggle-password-btn {
+  position: absolute;
+  top: 20%;
+  right: 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #6c994f;
+  font-size: 1.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-password-btn:focus {
+  outline: none;
+  color: #4b752c;
+}
+
+.login-btn {
+  padding: 12px 0;
+  background: #6c994f;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #548335;
+}
+
+.login-btn:active {
+  background: #436926;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 400px) {
+  .farmer-login-container {
+    width: 90%;
+    padding: 25px 20px;
+  }
+}

@@ -1,0 +1,102 @@
+/* ClientRegister.css */
+
+/* Page container */
+.client-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: linear-gradient(to bottom right, #87ceeb, #98fb98);
+  padding: 20px;
+}
+
+/* Registration card */
+.client-register-form {
+  background-color: #fff8f0; /* Light soil-like tone */
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  border: 2px solid #8b5a2b; /* Soil brown border */
+}
+
+/* Title */
+.client-register h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2f4f2f; /* Dark plant green */
+  font-size: 1.8rem;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #2f4f2f;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #8b5a2b;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #228b22; /* Plant green highlight */
+  box-shadow: 0px 0px 5px rgba(34, 139, 34, 0.4);
+}
+
+/* Password toggle icon */
+.password-field {
+  display: flex;
+  align-items: center;
+}
+
+.password-field input {
+  flex: 1;
+}
+
+.password-field span {
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 1.1rem;
+  user-select: none;
+}
+
+/* Button styling */
+.register-btn {
+  background: linear-gradient(to right, #228b22, #8b5a2b);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  width: 100%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.register-btn:hover {
+  background: linear-gradient(to right, #2e8b57, #a0522d);
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .client-register-form {
+    padding: 20px;
+  }
+
+  .client-register h2 {
+    font-size: 1.5rem;
+  }
+}

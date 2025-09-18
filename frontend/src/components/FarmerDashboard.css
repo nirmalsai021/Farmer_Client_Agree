@@ -1,0 +1,215 @@
+/* FarmerDashboard.css */
+
+/* Page container */
+.farmer-dashboard {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  background: linear-gradient(135deg, #e6f9f0, #d0f0ff);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', sans-serif;
+
+  /* Allow height to grow naturally */
+  min-height: auto;  
+}
+
+/* Make sure the whole page scrolls */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color: #f5f5f5;
+}
+
+html {
+  height: 100%;
+  overflow-y: auto; /* Always allow scrolling */
+}
+
+/* Add padding so footer is visible */
+.farmer-dashboard {
+  padding-bottom: 60px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .farmer-dashboard {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+
+/* FarmerDashboard.css */
+.farmer-dashboard {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 25px;
+  background: linear-gradient(135deg, #e6f9f0, #d0f0ff);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', sans-serif;
+
+  /* Key for internal scroll */
+  height: 80vh; /* Adjust height so it fits in viewport */
+  overflow-y: auto;
+}
+
+/* Hide scrollbar in Chrome/Safari */
+.farmer-dashboard::-webkit-scrollbar {
+  width: 8px;
+}
+.farmer-dashboard::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .farmer-dashboard {
+    margin: 10px;
+    padding: 20px;
+    height: 85vh;
+  }
+}
+
+.farmer-dashboard-container {
+  width: 80%; /* Increased from smaller value to give more space */
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4fff4;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+
+  /* Scroll only inside container */
+  max-height: 85vh; 
+  overflow-y: auto;
+}
+
+.farmer-dashboard-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2e7d32;
+}
+
+.farmer-dashboard-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.farmer-dashboard-container input,
+.farmer-dashboard-container textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+.farmer-dashboard-container button {
+  padding: 10px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.farmer-dashboard-container button:hover {
+  background-color: #256428;
+}
+
+/* Image Preview Styling */
+.image-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-preview img {
+  max-width: 200px; /* fixed smaller size */
+  max-height: 200px;
+  border-radius: 8px;
+  object-fit: cover; /* keep aspect ratio */
+  border: 2px solid #ccc;
+}
+
+.farmer-dashboard-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.farmer-dashboard-container {
+  flex: 1;
+  overflow-y: auto;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.image-preview {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.image-preview img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.farmer-dashboard-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.farmer-dashboard-container {
+  flex: 1;
+  overflow-y: auto; /* ✅ Scroll only inside this page */
+  padding: 20px;
+  max-width: 900px; /* ✅ Wider container */
+  margin: auto;
+}
+
+.farmer-dashboard-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.farmer-dashboard-container input,
+.farmer-dashboard-container button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.image-preview {
+  margin-top: 10px;
+  max-width: 300px; /* ✅ Keep image smaller */
+}
+
+.image-preview img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
