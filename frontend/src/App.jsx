@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
   useLocation,
@@ -189,7 +189,7 @@ const AppContent = () => {
 };
 
 const App = () => (
-  <Router>
+  <Router basename={process.env.NODE_ENV === 'production' ? '/Farmer_Client_Agree' : '/'}>
     <AppContent />
   </Router>
 );
