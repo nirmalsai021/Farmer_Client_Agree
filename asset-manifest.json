@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Farmer_Client_Agree/static/css/main.7eedd1b1.css",
+    "main.js": "/Farmer_Client_Agree/static/js/main.87c883b8.js",
+    "index.html": "/Farmer_Client_Agree/index.html",
+    "main.7eedd1b1.css.map": "/Farmer_Client_Agree/static/css/main.7eedd1b1.css.map",
+    "main.87c883b8.js.map": "/Farmer_Client_Agree/static/js/main.87c883b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7eedd1b1.css",
+    "static/js/main.87c883b8.js"
+  ]
+}
